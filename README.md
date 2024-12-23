@@ -1,0 +1,1 @@
+This repository demonstrates a common but easily overlooked error in Express.js applications:  the silent failure when processing malformed JSON data in POST requests. The `bug.js` file shows the problematic code.  The solution, provided in `bugSolution.js`, adds robust error handling to gracefully manage these situations, preventing unexpected application behavior.
